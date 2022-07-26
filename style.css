@@ -1,7 +1,7 @@
 /* Navbar */
 .navbar.sticky {
-  padding: 15px 0;
-  background: crimson;
+  padding: 10px 0;
+  background: #0d6efd;
 }
 .navbar-brand {
   font-family: Viga;
@@ -13,15 +13,15 @@
 
 /* JUMBOTRON  */
 .jumbotron {
-  background-image: url(img/jumbotron-bg.jpg);
+  background-image: url(img/bg-jumbotron.jpg);
   background-size: cover;
-  height: 400px;
+  height: 500px;
   text-align: center;
 }
 
 .jumbotron .display-4 {
   color: white;
-  padding-top: 100px;
+  padding-top: 150px;
   font-weight: 200;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   margin-bottom: 30px;
@@ -30,8 +30,21 @@
   font-weight: 500;
 }
 
+.img-profil {
+  height: 300px;
+  width: 300px;
+}
+
 #prodact {
-  background-color: #f6f7f8;
+  background-color: #b3b3b3;
+}
+
+.img-size {
+  height: 250px;
+}
+
+section {
+  padding-top: 6rem;
 }
 
 /* VERSI DEKSTOP */
